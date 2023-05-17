@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "indikators",
+  "info": {
+    "singularName": "indikator",
+    "pluralName": "indikators",
+    "displayName": "indikator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "level": {
+      "type": "json"
+    },
+    "ind": {
+      "type": "string"
+    },
+    "explanation_indicator": {
+      "type": "richtext"
+    },
+    "explanation_evaluation": {
+      "type": "text"
+    },
+    "supporting_evidence": {
+      "type": "text"
+    },
+    "aspek": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::aspek.aspek",
+      "inversedBy": "indikators"
+    },
+    "title": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::domain.domain",
+      "inversedBy": "indikators"
+    }
+  }
+}

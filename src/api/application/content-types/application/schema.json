@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applications",
+  "info": {
+    "singularName": "application",
+    "pluralName": "applications",
+    "displayName": "application"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "overview": {
+      "type": "text"
+    },
+    "law": {
+      "type": "richtext"
+    },
+    "collaboration": {
+      "type": "json"
+    },
+    "user_app": {
+      "type": "text"
+    },
+    "feature": {
+      "type": "richtext"
+    },
+    "number_users": {
+      "type": "json"
+    },
+    "link": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "request_flow": {
+      "type": "text"
+    }
+  }
+}

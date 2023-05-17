@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aspeks",
+  "info": {
+    "singularName": "aspek",
+    "pluralName": "aspeks",
+    "displayName": "aspek",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::domain.domain",
+      "inversedBy": "aspeks"
+    },
+    "indikators": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::indikator.indikator",
+      "mappedBy": "aspek"
+    }
+  }
+}

@@ -2,6 +2,6 @@
 buildCommand = "yarn install && yarn build"
 
 [deploy]
-startCommand = "cd public && yarn start"
+startCommand = "yarn start"
 healthcheckPath = "/_health"
 autoDeploy = false

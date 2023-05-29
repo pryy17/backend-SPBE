@@ -1,0 +1,7 @@
+[build]
+buildCommand = "yarn install && yarn build"
+
+[deploy]
+startCommand = "rsync -a public/ /data/public/ && yarn start"
+healthcheckPath = "/_health"
+autoDeploy = false

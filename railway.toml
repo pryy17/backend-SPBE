@@ -3,5 +3,4 @@ buildCommand = "yarn install && yarn build"
 
 [deploy]
 startCommand = "yarn start"
-healthcheckPath = "/_health"
 autoDeploy = false

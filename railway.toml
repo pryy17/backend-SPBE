@@ -1,6 +1,11 @@
+[services]
+type = "web"
+name = "strapi"
+env = "node"
+plan = "starter"
+
 [build]
 buildCommand = "yarn install && yarn build"
 
 [deploy]
 startCommand = "yarn start"
-autoDeploy = false

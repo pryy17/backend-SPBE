@@ -80,6 +80,7 @@ module.exports = ({ env }) => {
       },
     },
     sqlite: {
+      client: "sqlite",
       connection: {
         filename: env(
           "DATABASE_FILENAME",

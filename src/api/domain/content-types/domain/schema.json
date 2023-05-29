@@ -37,6 +37,45 @@
       "relation": "oneToMany",
       "target": "api::indikator.indikator",
       "mappedBy": "domain"
+    },
+    "general_description": {
+      "type": "richtext"
+    },
+    "support_information": {
+      "type": "json"
+    },
+    "gap_analysis": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "general_criteria": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

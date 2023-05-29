@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_indikator_levels",
+  "info": {
+    "displayName": "level",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pemenuhan_level": {
+      "type": "text"
+    },
+    "bukti_dukung": {
+      "type": "richtext"
+    },
+    "example": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

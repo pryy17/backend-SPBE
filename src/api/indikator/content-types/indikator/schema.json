@@ -12,20 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "level": {
-      "type": "json"
-    },
     "ind": {
       "type": "string"
     },
     "explanation_indicator": {
       "type": "richtext"
-    },
-    "explanation_evaluation": {
-      "type": "text"
-    },
-    "supporting_evidence": {
-      "type": "text"
     },
     "aspek": {
       "type": "relation",
@@ -41,6 +32,24 @@
       "relation": "manyToOne",
       "target": "api::domain.domain",
       "inversedBy": "indikators"
+    },
+    "purpose": {
+      "type": "richtext"
+    },
+    "scope": {
+      "type": "richtext"
+    },
+    "reference": {
+      "type": "richtext"
+    },
+    "level_component": {
+      "displayName": "level",
+      "type": "component",
+      "repeatable": true,
+      "component": "indikator.level"
+    },
+    "more_explanation": {
+      "type": "json"
     }
   }
 }

@@ -2,5 +2,5 @@
 buildCommand = "yarn install && yarn build"
 
 [deploy]
-startCommand = "yarn start"
+startCommand = "rsync -a public/ /data/public/ && yarn start"
 autoDeploy = false

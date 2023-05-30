@@ -8,4 +8,4 @@ plan = "starter"
 buildCommand = "yarn install && yarn build"
 
 [deploy]
-startCommand = "strapi start"
+startCommand = "yarn start"

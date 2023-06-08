@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "procedures",
+  "info": {
+    "singularName": "procedure",
+    "pluralName": "procedures",
+    "displayName": "procedure",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "indikator_procedure": {
+      "displayName": "indikator_procedure",
+      "type": "component",
+      "repeatable": true,
+      "component": "procedure.indikator-procedure"
+    },
+    "example": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "eksternal"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

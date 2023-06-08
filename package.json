@@ -17,6 +17,7 @@
     "@strapi/provider-upload-cloudinary": "^4.10.5",
     "@strapi/strapi": "4.10.2",
     "better-sqlite3": "8.0.1",
+    "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-vercel-deploy": "^1.4.0"
   },
   "author": {

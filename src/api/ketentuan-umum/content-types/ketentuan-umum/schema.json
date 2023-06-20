@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ketentuan_umums",
+  "info": {
+    "singularName": "ketentuan-umum",
+    "pluralName": "ketentuan-umums",
+    "displayName": "provision",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

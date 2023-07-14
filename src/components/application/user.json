@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_application_users",
+  "info": {
+    "displayName": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "agency": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

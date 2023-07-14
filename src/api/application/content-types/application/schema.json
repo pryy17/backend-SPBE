@@ -4,7 +4,8 @@
   "info": {
     "singularName": "application",
     "pluralName": "applications",
-    "displayName": "application"
+    "displayName": "application",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,26 +18,14 @@
     "law": {
       "type": "richtext"
     },
-    "collaboration": {
-      "type": "json"
-    },
     "user_app": {
       "type": "text"
     },
     "feature": {
       "type": "richtext"
     },
-    "number_users": {
-      "type": "json"
-    },
     "link": {
       "type": "string"
-    },
-    "banner": {
-      "type": "text"
-    },
-    "logo": {
-      "type": "text"
     },
     "name": {
       "type": "string"
@@ -46,6 +35,45 @@
     },
     "request_flow": {
       "type": "text"
+    },
+    "user_number": {
+      "displayName": "user",
+      "type": "component",
+      "repeatable": true,
+      "component": "application.user"
+    },
+    "collaborations": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

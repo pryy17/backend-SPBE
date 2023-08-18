@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_procedure_references",
+  "info": {
+    "displayName": "reference"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -44,6 +44,12 @@
     },
     "title": {
       "type": "string"
+    },
+    "reference": {
+      "displayName": "reference",
+      "type": "component",
+      "repeatable": true,
+      "component": "procedure.reference"
     }
   }
 }
